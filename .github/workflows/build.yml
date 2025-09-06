@@ -1,13 +1,13 @@
-name: Build extensions
+name: Build Safari Extension
 on:
   push:
     branches:
-      - main
+      - main  # 只有推送到 main 分支时才会触发构建
+
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: macos-latest  # Safari 扩展必须在 macOS 上构建
     steps:
-
       - name: 🛎 Checkout
         uses: actions/checkout@v4
       - uses: actions/setup-node@v4
