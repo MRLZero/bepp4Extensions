@@ -2,7 +2,7 @@ shared:
   id: 'bypass-paywalls'  # 你的扩展名字
   input: 
     chromium: 'build/bypass-paywalls-chrome-clean-master/'  # 你 Chrome 扩展的代码所在文件夹
-  output: 'dist'  # 转换好的 Safari 扩展输出目录
+#  output: 'dist'  # 转换好的 Safari 扩展输出目录
 
 build: 
   - type: safari  # 告诉 Bepp 转换成 Safari 扩展
