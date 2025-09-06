@@ -17,5 +17,3 @@ jobs:
       - name: 开始构建
         run: bepp build #
 
-      - name: 查看文件
-        run: ls -lht dist
