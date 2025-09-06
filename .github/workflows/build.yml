@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build extensions with bepp
-    runs-on: macos-latest # Must be macos for Safari extension build
+    runs-on: macos-latest
     steps:
 
       - name: 🛎 Checkout
@@ -28,3 +28,5 @@ jobs:
 
      - name: View builds
        runs: ls -ls build/extensions # this is the default output for builds, you can change output folder in bepp config file.
+
+     # Do something with builds..
