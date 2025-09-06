@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest  # Safari 扩展必须在 macOS 上构建
+    runs-on: macos-latest  # Safari扩展必须在macOS上构建
     steps:
       - name: 拉取代码
         uses: actions/checkout@v4
