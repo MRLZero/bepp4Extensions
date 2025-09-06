@@ -17,9 +17,16 @@ jobs:
       - name: 开始构建
         run: bepp build #
 
-      - name: Deploy
-        uses: actions/download-artifact@v4
-        with:
-          name: build/extensions/bypass-paywalls-safari-4.2.0.4.tar.gz
-          path: artifacts/ # 下载到 artifacts 目录
+#      - name: Upload build artifacts
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: my-build-artifacts
+#          path: |
+#            dist/
+#
+#      - name: Deploy
+#        uses: actions/download-artifact@v4
+#        with:
+#          name: build/extensions/bypass-paywalls-safari-4.2.0.4.tar.gz
+#          path: artifacts/ # 下载到 artifacts 目录
 
