@@ -25,4 +25,4 @@ jobs:
         #   file: './custom-bepp.config.json'
 
       - name: View builds
-        runs: ls -ls build/extensions # this is the default output for builds, you can change output folder in bepp config file.
+        run: ls -ls build/extensions # this is the default output for builds, you can change output folder in bepp config file.
