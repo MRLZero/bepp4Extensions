@@ -15,4 +15,4 @@ jobs:
         run: npm install -g @bepp/bepp
 
       - name: 开始构建
-        run: bepp build
+        run: bepp build #
