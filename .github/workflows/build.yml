@@ -28,5 +28,3 @@ jobs:
 
      - name: View builds
        runs: ls -ls build/extensions # this is the default output for builds, you can change output folder in bepp config file.
-
-     # Do something with builds..
