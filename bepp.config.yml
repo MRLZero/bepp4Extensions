@@ -1,7 +1,7 @@
 shared: 
-  id: 'uBlock Origin Lite'  # 你的扩展名字
+  id: 'uBlock-Origin-Lite'  # 你的扩展名字
   input: 
-    chromium: 'build/uBlock Origin Lite/'  # 你 Chrome 扩展的代码所在文件夹
+    chromium: 'build/uBlock-Origin-Lite/'  # 你 Chrome 扩展的代码所在文件夹
   output: 'dist'  # 转换好的 Safari 扩展输出目录
 
 build: 
