@@ -15,7 +15,18 @@ jobs:
         run: npm install -g @bepp/bepp
 
       - name: 开始构建
-        run: bepp build #
+        run: bepp build
+
+      - name: 推送代码
+        run: |
+          git config --global user.email lvchalc@163.com
+          git config --global user.name MRLZero
+          git add .
+          git commit -m "update" -a
+          git push
+        # 环境变量
+        env:
+          email: lvchalc@163.com
 
 #      - name: Upload build artifacts
 #        uses: actions/upload-artifact@v2
