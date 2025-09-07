@@ -20,19 +20,5 @@ jobs:
       - name: 上传结果
         uses: actions/upload-artifact@v4
         with:
-            name: bypass-paywalls-safari-4.2.0.4.tar.gz
+            name: my-artifact
             path: ${{ github.workspace }}/dist
-
-#      - name: Upload build artifacts
-#        uses: actions/upload-artifact@v2
-#        with:
-#          name: my-build-artifacts
-#          path: |
-#            dist/
-#
-#      - name: Deploy
-#        uses: actions/download-artifact@v4
-#        with:
-#          name: build/extensions/bypass-paywalls-safari-4.2.0.4.tar.gz
-#          path: artifacts/ # 下载到 artifacts 目录
-
